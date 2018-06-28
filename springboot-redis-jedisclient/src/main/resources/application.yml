@@ -1,0 +1,21 @@
+
+server:
+  port: 20012
+
+
+# redis jindi
+redis:
+  ip: 123.56.40.222
+  port: 16379
+  password: jindiredis4test
+  database: 10
+# pool setting
+  maxTotal: 200
+  maxIdle: 50
+  minIdle: 20
+  maxWaitMillis: 20000
+# validate setting
+  testOnBorrow: false
+  testWhileIdle: true
+  numTestsPerEvictionRun: 5
+  timeBetweenEvictionRunsMillis: 20000

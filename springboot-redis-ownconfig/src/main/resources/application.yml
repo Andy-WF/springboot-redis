@@ -1,0 +1,18 @@
+server:
+  port: 20011
+
+#redis配置
+order:
+  redis:
+    hostName: 10.2.2.127
+    port: 6379
+    password:
+    database: 3
+    timeout: 2000
+    pool:
+      max-idle: 50
+      min-idle: 20
+      max-wait: 20000
+      max-active: 200
+
+
